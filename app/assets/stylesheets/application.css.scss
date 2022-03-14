@@ -14,10 +14,14 @@
 *= require_self
 */
 
+
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
-//gradient provided by uiGradients
+//  Navbar gradient
+//  gradient provided by uiGradients
 .home-callout, .navbar {
   background: #AAFFA9;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #11FFBD, #AAFFA9);  /* Chrome 10-25, Safari 5.1-6 */
@@ -28,10 +32,12 @@ h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
 }
 
+//  Nav styles
 .navbar {
   border: none;
 }
 
+// Typography styles
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
     color: black;
@@ -47,6 +53,7 @@ h1, h2, h3 {
   padding-top: 50px;
 }
 
+// Home page styles
 .home-callout .home-brand-message {
     color: #555;
 }
