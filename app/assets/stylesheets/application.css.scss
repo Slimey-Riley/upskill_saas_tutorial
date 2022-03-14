@@ -40,7 +40,7 @@ h1, h2, h3 {
 
 .navbar-brand {
   font-family: 'roboto', sans-serif;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 // Typography styles
@@ -48,9 +48,20 @@ h1, h2, h3 {
 .navbar-default .navbar-nav > li > a {
     color: black;
     &:hover {
-       color: black;
-    opacity: 0.75;
+      color: black;
+      opacity: 0.75;
     }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+.navbar-default .navbar-toggle{
+  border: 2px solid black;
+  &:hover, &:focus {
+    background-color: #AAFFA9;
+  }
 }
 
 .home-callout {
